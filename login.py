@@ -10,3 +10,8 @@ def login():
     if username.isnumeric():
         print("Enter characters")
     print("Sucessful")
+
+def signup():
+    email = input("Enter your email address")
+    password = input("Enter your password")
+    
